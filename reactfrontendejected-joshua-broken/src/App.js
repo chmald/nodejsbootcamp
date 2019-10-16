@@ -1,4 +1,4 @@
-//import React from 'react'; //COMPONENT IS NOT FOUND!
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React on Azure
+          Learn React on Azure!
         </a>
       </header>
     </div>
