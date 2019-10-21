@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class AppService {
 
   getUsers() {
-    return this.http.get('http://localhost:3000/users');
+    return this.http.get('https://nodejsbootcampapi.azurewebsites.net/users');
   }
 
   constructor(

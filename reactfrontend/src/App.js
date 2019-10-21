@@ -12,7 +12,7 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:3000/users').then(
+    axios.get('https://nodejsbootcampapi.azurewebsites.net/users').then(
       res => {
         const users = res.data;
         this.setState({ users });

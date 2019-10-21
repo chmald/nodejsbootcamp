@@ -16,7 +16,7 @@ export default {
         }
     },
     mounted() {
-        axios.get('http://localhost:3000/users').then(
+        axios.get('https://nodejsbootcampapi.azurewebsites.net/users').then(
             res => {
                 this.users = res.data;
         });
