@@ -1,0 +1,14 @@
+[Unit]
+Description=NodeJSApp
+After=network.target
+
+[Service]
+ExecStart=/opt/apps/NodeJSApp/bin/www
+Restart=always
+User=root
+Group=root
+Environment=PATH=/usr/bin:/usr/local/bin
+WorkingDirectory=/opt/apps/NodeJSApp
+
+[Install]
+WantedBy=multi-user.target
